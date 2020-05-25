@@ -50,9 +50,6 @@
 ;; our package manager can't deal with; see raxod502/straight.el#279)
 ;(package! builtin-package :recipe (:branch "develop"))
 
-(package! tidal
-  :recipe (:local-repo "~/Utility/tidal"))
-
 (package! org-ref)
 
 (unpin! org-roam)

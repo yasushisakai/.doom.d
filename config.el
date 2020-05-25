@@ -51,20 +51,6 @@
 ;; they are implemented.
 ;;
 
-;; (use-package! org-hugo
-;;   :init
-;;   (setq org-hugo-default-section-directory "memo"
-;; ))
-
-;; (use-package! org-re-reveal
-;;   :config
-;;   (setq
-;;    org-re-reveal-mousewheel nil
-;;    org-re-reveal-progress nil
-;;    org-re-reveal-transition "fade"
-;;    org-re-reveal-theme "simple"
-;;    ))
-
 ;; this adds the backlinks section at the end
 (defun my/org-roam--backlinks-list (file)
   (if (org-roam--org-roam-file-p file)
@@ -156,8 +142,3 @@
 (setq display-time-mode 1)
 
 (setq org-image-actual-width '(300))
-
-;; tidal
-;; (setq load-path (cons "~/tidal/" load-path))
-;; (require 'tidal)
-;; (setq tidal-interpreter "/Users/yasushi/.ghcup/bin/ghci")
