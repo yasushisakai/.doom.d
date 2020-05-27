@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: insert japanese block
+# uuid: org-latex-insert-japanese
+# key: <j
+# condition: t              
+# --
+
+#+LATEX: \begin{CJK}{UTF8}{min}
+$0
+#+LATEX: \end
